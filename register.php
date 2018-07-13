@@ -11,7 +11,7 @@
 		validate_user_registration();
 		
 		?>
-								
+			
 		</div>
 	</div>
     	<div class="row">

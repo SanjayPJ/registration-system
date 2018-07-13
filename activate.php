@@ -26,12 +26,12 @@
 			$validation_code = $row['validation_code'];
 
 			if($validation_code == $code){
-				$status = "Account verification successfull";
+				$status = "<span class='text-success'>Account verification successfull</span>";
 				//update active status to 1
 
 				
 			}else{
-				$status = "Account verification failed";
+				$status = "<span class='text-danger'>Account verification failed</span>";
 			}
 
 		}

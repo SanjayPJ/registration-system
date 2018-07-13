@@ -50,7 +50,7 @@ function validate_user_registration(){
           $subject = "Activating account";
           $msg = "
                Please click the link to activate your account
-               http://localhost/login/activate.php?email=$email&code=$validation;
+               http://localhost/login/activate.php?email=$email&code=$validation
           ";
           $headers = "From: something@yourwebsite.com";
 
